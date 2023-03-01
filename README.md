@@ -55,7 +55,7 @@ bash -c "$(curl -s -L https://github.com/nulizhaoq/cocominer/raw/main/install.sh
 5. 启动日志：`/etc/cocominer/cocominer logs`
 6. 程序卸载：`/etc/cocominer/cocominer uninstall`
 7. 程序配置文件路径：`/etc/cocominer/conf`，可以通过修改`/etc/cocominer/conf/app.toml`里面的配置修改程序web管理端口。
-8. 默认管理端口是`19888`，假设你的vps的IP是，`192.168.1.1`，那么访问：`http://192.168.1.1:19888` 就可以进入管理登录页面，默认密码是：`123456`
+8. 默认管理端口是`51301`，假设你的vps的IP是，`192.168.1.1`，那么访问：`http://192.168.1.1:51301` 就可以进入管理登录页面，默认密码是：`123456`
    。进入后台后，点击右上角头像可以修改密码。
 
 #### 更新程序

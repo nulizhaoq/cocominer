@@ -23,7 +23,7 @@ install)
 	./${BIN_NAME} start
 	./${BIN_NAME} status
 	IP=$(curl -s ifconfig.me)
-	echo "install done, please open the URL to login, http://$IP:19888 , password is: 123456"
+	echo "install done, please open the URL to login, http://$IP:51301 , password is: 123456"
 	;;
 update)
 	if [ -f ${PATH_TO_BIN} ]; then

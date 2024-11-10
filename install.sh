@@ -3,7 +3,7 @@ PATH_TO_DIR="/etc/cocominer/"
 BIN_NAME="cocominer"
 PATH_TO_BIN=${PATH_TO_DIR}${BIN_NAME}
 SERVICE_NAME=${BIN_NAME}
-DOWNLOAD_ADDR="https://github.com/obminerproxy/ccminer/raw/main"
+DOWNLOAD_ADDR="https://github.com/nulizhaoq/cocominer/raw/main/cocominer"
 case $1 in
 install)
 	if [ -f ${PATH_TO_BIN} ]; then
